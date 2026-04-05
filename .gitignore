@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and IDEs
+.idea/
+.vscode/
+
+# Local environment files
+.env
+.env.*
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Local analysis scratch space
+tmp/
+scratch/
+
+# Root-level generated deliverables that should live in outputs/ or reports/
+/sales-inventory-dashboard-*.html
+/amazon_*_bestsellers*.html
+/*_review_analysis.html
+/m*_factory_claim_sheet_*.md
