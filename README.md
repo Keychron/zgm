@@ -2,7 +2,7 @@
 
 Open source gaming mouse firmware built on Zephyr RTOS.
 
-ZGM is intended to be a flexible firmware foundation for gaming mice, with a focus on low-latency input, hardware extensibility, and customizable device behavior. The long-term goal is to provide a clean platform for building and iterating on modern mouse features without being locked into a closed firmware stack.
+`zgm` is intended to be a flexible firmware foundation for gaming mice, with a focus on low-latency input, hardware extensibility, and customizable device behavior. The long-term goal is to provide a clean platform for building and iterating on modern mouse features without being locked into a closed firmware stack.
 
 ## Project Goals
 
