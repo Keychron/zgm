@@ -1,4 +1,4 @@
-# zgm
+# ZGM
 
 Open source gaming mouse firmware built on Zephyr RTOS.
 
