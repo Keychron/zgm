@@ -40,6 +40,20 @@ Zephyr provides a strong foundation for embedded firmware development, including
 
 These qualities make it a strong base for an extensible gaming mouse firmware platform.
 
+## Why This Matters for the Community
+
+`zgm` is also meant to extend the open-source input-device culture that already exists around keyboards into the mouse space.
+
+Keychron has already embraced open ecosystems such as QMK and ZMK, which have shown how community-driven firmware can unlock deep customization, faster iteration, and meaningful developer contribution. The long-term direction is for future Keychron gaming mice to build on this open firmware approach as well.
+
+Bringing that philosophy to mice helps:
+
+- unify keyboard and mouse customization under a more open model
+- encourage a broader open input ecosystem instead of limiting openness to keyboards
+- fill an important gap, since open-source mouse firmware is still much rarer than open-source keyboard firmware
+
+This is meaningful for the community because mice remain far more closed and vendor-controlled than keyboards. An open project like `zgm` can make experimentation, customization, and collaboration much more accessible.
+
 ## Contributing
 
 Contributions are welcome as the project takes shape. Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening issues or pull requests.
