@@ -272,9 +272,11 @@ a {
   flex-wrap: wrap;
 }
 
-.subscribe-form input {
+.subscribe-form input,
+.subscribe-form .formkit-input {
   flex: 1;
-  min-width: 0;
+  min-width: 280px;
+  width: 100%;
   padding: 12px 16px;
   border-radius: 10px;
   border: 1px solid var(--border);
@@ -284,11 +286,13 @@ a {
   transition: border-color var(--transition), box-shadow var(--transition), background var(--transition);
 }
 
-.subscribe-form input::placeholder {
+.subscribe-form input::placeholder,
+.subscribe-form .formkit-input::placeholder {
   color: var(--text-muted);
 }
 
-.subscribe-form input:focus {
+.subscribe-form input:focus,
+.subscribe-form .formkit-input:focus {
   outline: none;
   border-color: color-mix(in srgb, var(--accent) 70%, white 10%);
   box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 16%, transparent);
@@ -352,6 +356,10 @@ a {
 }
 
 .subscribe-form-centered input {
+  max-width: 420px;
+}
+
+.subscribe-form-centered .formkit-input {
   max-width: 420px;
 }
 
